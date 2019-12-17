@@ -1,0 +1,12 @@
+<section class="admin__page-section custom-tab-content">
+    <table class="admin__table-secondary">
+        <tbody>
+        <?php echo $block->getChildHtml(); ?>
+        <tr>
+            <th><?php /* @escapeNotVerified */
+                echo __('Comments:') ?></th>
+            <td><?php echo $block->getComments(); ?></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
